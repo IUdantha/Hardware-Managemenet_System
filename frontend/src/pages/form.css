@@ -1,0 +1,137 @@
+
+  .form,
+  .content {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+    
+  }
+  
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c4c3c3;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: inherit;
+  }
+  
+  .form-group label {
+    text-align: left;
+    display: block;
+    margin: 0 0 5px 3px;
+  }
+  
+
+  .del{
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+/* ------------------------------------ */
+
+
+.driver-content-manager{
+   
+    /* background:  #ffffff;
+    box-shadow: #c4c4c4;
+    height: 500px;
+    align-items: center;
+    margin:10px;
+    padding: 20px;
+   
+    border-radius: 30px;
+    width:100%;
+    margin-bottom: 20px; */
+
+
+    margin:30px;
+    padding: 20px;
+    list-style: none;
+    align-items: center;
+    padding: 2rem;
+    width: 90%;
+    max-width: 40rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 50px;
+    background: white;
+   
+
+}
+
+.driver-content-manager h3{
+    padding-bottom: 15px;
+}
+
+
+.btn-add{
+    padding: 10px 20px;
+    margin-left: 30px;
+    margin-top: 50px;
+    border: 1px solid #360000;
+    border-radius: 20px;
+    background: #360000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    appearance: button;
+    align-items: left;
+    width:40%;
+}
+.btn-cancel{
+    padding: 10px 20px;
+    border: 2px solid #360000;
+    border-radius: 20px;
+    background: #fff;
+    color: #360000;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    appearance: button;
+    width:40%;
+}
+
+.btn-driver{
+    padding: 15px;
+    margin-left:90px ;
+    margin-top:30px;
+    border: 2px solid #360000;
+    border-radius: 25px;
+    background: #fff;
+    color: #360000;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    appearance: button;
+    align-items: center;
+    align-content: center;
+    width:50%;
+}
+
+.btn-assign{
+    padding: 5px;
+    border: 2px solid #00570a;
+    border-radius: 5px;
+    background:  #00570a;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    text-align: center;
+    appearance: button;
+    align-items: right;
+    align-content: right;
+    width:100%;
+    margin-right: 10px;
+    display:grid;
+}

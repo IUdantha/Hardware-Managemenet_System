@@ -1,0 +1,11 @@
+.button-space{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.lord-icon-lg{
+    width:250px;
+    height:250px;
+}

@@ -1,0 +1,330 @@
+
+
+h1 {
+  font-weight: 300;
+  text-align: center;
+
+}
+
+.container-dash {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 ;
+  padding: 0 ;
+
+}
+
+/* .heading {
+    font-size: 1rem;
+    font-weight: 300;
+    padding-top: 0px;
+    margin-top: 0px;
+
+  }
+  
+  .heading p {
+    color: #828282;
+  } */
+
+
+
+/* ------------------------------------ */
+
+.driver-table{
+  border-collapse: collapse;
+}
+
+  /* .page-content{
+      align-content: center;
+      display:flex;
+      /* text-align: center; 
+      width: 150%;
+      height: 100%;
+      padding:30px;
+      margin: 10px;
+      margin-left: 50px;
+      background-color: #d6d4d4;
+      border-radius: 20px;
+
+} */
+
+.driver-table tr{
+  border-top:solid rgb(193, 193, 193);
+  border-width: 1px;
+} 
+
+.driver-table tr:nth-child(even){
+  background-color: #dfdfdf;
+}
+
+.driver-table tr th {
+  padding-left: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: left;
+  column-width: 220px;
+}
+
+.driver-table tr td {
+  padding: 10px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  text-align: left;
+  column-width: 220px;
+ 
+}
+
+.btn-driver{
+  padding: 15px;
+  margin-top:30px;
+  border: 2px solid #360000;
+  border-radius: 25px;
+  background: #fff;
+  color: #360000;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  appearance: button;
+  align-items: right;
+  align-content: right;
+  width:80%;
+}
+
+.btn-assign{
+  padding: 5px;
+  margin-top: 7px;
+  border: 2px solid #00570a;
+  border-radius: 5px;
+  background:  #00570a;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  cursor: pointer;
+  text-align: center;
+  appearance: button;
+  align-items: right;
+  align-content: right;
+  width:100%;
+  margin-right: 10px;
+  display:grid;
+}
+
+/* ------------------------------------------- */
+
+h2 {
+  font-weight: 300;
+  text-align: left;
+}
+
+
+.page-content{
+    align-content: center;
+    /* display:flex; */
+    /* text-align: center; */
+    width: 180%;
+    height: 100hv;
+    padding:30px;
+    margin: 10px;
+    /* margin-left: 50px; */
+    background-color: #d6d4d4;
+    border-radius: 20px;
+}
+
+
+
+.page-content-forDashboard{
+  align-content: center;
+  /* display:flex; */
+  /* text-align: center; */
+  width: 180%;
+  height: 100hv;
+  /* padding:30px; */
+  /* margin: 10px; */
+  margin-left: 30px;
+  border-radius: 20px;
+}
+
+.page-content-profile{
+  align-content: center;
+  width: 180%;
+  height: 100hv;
+  margin-left: 30px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+
+.d-title{
+  text-align: left;
+  font-size: 18px;
+  padding: 8px;
+  padding-bottom: 20px;
+}
+
+.white-box{
+  align-content: center;
+  /* text-align: center; */
+  width: 98%;
+  height: 98%;
+  padding:20px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 20px;
+
+}
+
+.white-box-forDashboard{
+  align-content: center;
+  /* text-align: center; */
+  width: 98%;
+  height: 98%;
+  /* padding:20px; */
+  /* margin: 10px; */
+  border-radius: 20px;
+
+}
+
+.white-box-profile{
+  align-content: center;
+  width: 98%;
+  height: 98%;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 10px;
+
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.btn-ad {
+  padding: 10px;
+  width: 300px; /* Adjust the width as needed */
+  height: 300px;
+  border: 1px solid #360000 ;
+  border-radius: 10px;
+  background: #360000;
+  color: #fff;
+  margin-bottom: 20px;
+  margin-left: 3px;
+  margin-right: 8px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.btn-ad:hover{
+  transform: scale(1.1);
+  font-size: 25px;
+  background: #fff;
+  color: #360000;
+}
+
+.dash-heading{
+  padding-left:20px;
+  margin-left: 20px;
+}
+
+.btn-dReports{
+  padding: 10px 50px;
+  border: 1px solid #360000  ;
+  border-radius: 15px;
+  background:  #360000  ;
+  color: #fff;
+  margin-bottom: 2px;
+  margin-left: 3px;
+  margin-right: 8px;
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: right;
+  appearance: button;
+  align-items: right;
+  justify-content: right;
+  align-content: right;
+  float: right;
+}
+
+.btn-Dedit{
+  border: none;
+  font-size: 1.8rem;
+  background: none;
+  
+}
+
+/* Dashboard icons */
+ion-icon {
+  font-size: 64px;
+}
+
+/* profile css */
+.profile-details {
+  border: 1px solid #ddd;
+  display: flex;
+  width: 55%;
+  flex-direction: column;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+
+}
+
+.profile-info-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.profile-label {
+  color: #360000;
+  margin-left: 30px;
+  padding: 20px;
+  font-size: 22px;
+  min-width: 150px;
+  font-weight: bold;
+}
+
+.profile-label-text{
+  display: flex;
+  margin-right: 30px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.centered-heading {
+  font-size: 30px;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* profile photo css */
+.profile-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-photo-icon {
+  margin-top: 10px;
+  font-size: 120px;
+  color: #999;
+}

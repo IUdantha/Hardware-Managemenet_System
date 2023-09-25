@@ -1,0 +1,70 @@
+.buttonB {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #360000;
+  border-radius: 50px;
+  background: #360000;
+  color: white;
+  cursor: pointer;
+  /* margin-right: 1rem; */
+  text-decoration: none;
+  display: inline-block;
+}
+
+.buttonB:focus {
+  outline: none;
+}
+
+.buttonB:hover,
+.buttonB:active {
+  background: #360000ce;
+  border-color: #360000ce;
+}
+
+.buttonB--inverse {
+  background: transparent;
+  color: #ff0055;
+}
+
+.buttonB--inverse:hover,
+.buttonB--inverse:active {
+  color: white;
+  background: #ff0055;
+}
+
+.buttonB--danger {
+  background: #830000;
+  border-color: #830000;
+}
+
+.buttonB--danger:hover,
+.buttonB--danger:active {
+  background: #f34343;
+  border-color: #f34343;
+}
+
+.buttonB:disabled,
+.buttonB:hover:disabled,
+.buttonB:active:disabled {
+  background: #ccc;
+  color: #979797;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+.buttonB--small {
+  font-size: 0.8rem;
+}
+
+.buttonB--big {
+  font-size: 1.5rem;
+}
+
+.anco{
+  color: white;
+}
+
+.anco:hover{
+  color: white;
+  text-decoration: none;
+}

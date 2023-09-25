@@ -1,0 +1,114 @@
+.inventoryeditdeletebutton{  
+    margin-top: 20px;
+    margin-left: 300px;
+    position: relative;
+}
+.inventorydeletebutton{
+    position: absolute;
+    margin-left: 400px;
+
+
+}
+.inventoryeditbutton{
+    position: absolute;
+    margin-left: 27%;
+}
+
+.inventoryitemaddbutton{
+    margin-left: 42% ;
+    margin-top: 20px;
+}
+
+.inventoryitemaddbutton button{
+    width: 200px;
+    height: 50px ;
+    font-size: 24px;
+    border-style: solid;
+    border-color: #360000;
+    color: #ffffff;
+    background-color: #360000;
+}
+
+
+
+.inventoryeditbackbutton button{
+    width: 150px;
+	height: 40px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-style: none;
+    
+    font-size: 18px;
+    cursor: pointer;
+
+    
+   
+    border-style: solid;
+    border-color: #360000;
+    color: #360000;
+    background-color: #ffffff;
+   
+}
+.additemtitle{
+    margin-left: 30%;
+}
+
+.storerequestbox{
+    margin-top: 2%;
+    margin-left: 20%;
+    width: 700px;
+    height: 100%;
+    background-color: rgb(236, 238, 238);
+    border-radius: 20px;  
+    padding-top: 1%;
+}
+
+.storerequestboxpart1{
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.storerequestboxpart2{
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+
+}
+
+.supplierreqdeletebutton{
+    margin-bottom: 3%;
+    margin-left: 80%;
+}
+
+.downloaditemlistbutton button{
+    margin-top: 5%;
+    margin-left: 85%;
+    border-style: solid;
+    border-color: #360000;
+    color: #360000;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+.supplierreqaddbutton{
+    width: 280px;
+    height: 45px ;
+    font-size: 24px;
+    border-style: solid;
+    border-color: #360000;
+    color: #360000;
+    background-color: #ffffff;
+    border-radius: 20px;  
+
+
+}
+
+.storereqbuttons{
+    margin-left: 60%;
+    margin-bottom: 3%;
+}
+
+.storereqbuttons Button{
+    margin-left: 20px;
+}

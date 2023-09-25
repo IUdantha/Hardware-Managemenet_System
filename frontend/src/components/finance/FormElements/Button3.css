@@ -1,0 +1,90 @@
+.btn-driver{
+    padding: 15px;
+    margin-top:30px;
+    border: 2px solid #360000;
+    border-radius: 25px;
+    background: #fff;
+    color: #360000;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    appearance: button;
+    align-items: right;
+    align-content: right;
+    width:80%;
+}
+
+.buttonB3 {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #360000;
+    border-radius: 50px;
+    background: white;
+    color: #360000;
+    cursor: pointer;
+    /* margin-right: 1rem; */
+    text-decoration: none;
+    display: inline-block;
+    width:100%;
+    text-align: center;
+  }
+  
+  .buttonB3:focus {
+    outline: none;
+  }
+  
+  .buttonB3:hover,
+  .buttonB3:active {
+    background: #360000;
+    border-color: #360000;
+    color: white;
+  }
+  
+  .buttonB3--inverse {
+    background: transparent;
+    color: #ff0055;
+  }
+  
+  .buttonB3--inverse:hover,
+  .buttonB3--inverse:active {
+    color: white;
+    background: #ff0055;
+  }
+  
+  .buttonB3--danger {
+    background: #830000;
+    border-color: #830000;
+  }
+  
+  .buttonB3--danger:hover,
+  .buttonB3--danger:active {
+    background: #f34343;
+    border-color: #f34343;
+  }
+  
+  .buttonB3:disabled,
+  .buttonB3:hover:disabled,
+  .buttonB3:active:disabled {
+    background: #ccc;
+    color: #979797;
+    border-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .buttonB3--small {
+    font-size: 0.8rem;
+  }
+  
+  .buttonB2--big {
+    font-size: 1.5rem;
+  }
+  
+  .anco3{
+    color: #360000;
+  }
+  
+  .anco3:hover{
+    color: white;
+    text-decoration: none;
+  }

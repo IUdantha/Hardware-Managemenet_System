@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+p {
+  line-height: 1.7;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  line-height: 2.2;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0;
+  padding: 0;
+  /* text-align: center; */
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin-bottom:15px ;
+  height: 70px;
+  width: 177%;
+  background-color:  #d6d4d4;
+
+}
+
+
+.header ul {
+  display: flex;
+  justify-content: flex-end; /* Align the list items to the right */
+  margin-right: 15px; /* Add some right margin for spacing */
+  align-items: center; /* Vertically center the list items */
+}
+
+.header ul li {
+  margin-left: 5px;
+
+}
+
+.header ul li button {
+
+  font-size: 30px;
+}
+
+
+.header ul li a {
+  display: flex;
+
+}
+
+.header ul li a:hover {
+  color: #777;
+}
+
+.header ul li a svg {
+  margin-right: 5px;
+}
+
+.header h1{
+  align-content: left;
+  margin-left:15px;
+  margin-top: 5px;
+  color:#360000; 
+  font-size: 16px;
+
+
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.heading p {
+  color: #828282;
+}
+
+
+.btn {
+  padding: 10px 20px;
+  border: 1px solid #360000;
+  border-radius: 5px;
+  background: #360000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  appearance: button;
+  display: flex;
+  justify-content: center;
+}
+
+.btn svg {
+  margin-right: 8px;
+}
+
+.btn-reverse {
+  background: #fff;
+  color: #000;
+}
+
+/* submit button of the login page */
+.btn-block {
+  width: 80%;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+.btn:hover {
+  transform: scale(0.98);
+  background-color: #530000;
+}
+
+.loadingSpinnerContainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 5000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingSpinner {
+  width: 64px;
+  height: 64px;
+  border: 8px solid;
+  border-color: #000 transparent #555 transparent;
+  border-radius: 50%;
+  animation: spin 1.2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Styles for screens smaller than 600px */
+@media (max-width: 600px) {
+  /* CSS rules for smaller screens */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom:15px ;
+    height: 70px;
+    width: 177%;
+    background-color:  #d6d4d4;
+  
+  }
+
+  .page-content{
+    align-content: center;
+    /* display:flex; */
+    /* text-align: center; */
+    width: 180%;
+    height: 100%;
+    padding:30px;
+    margin: 10px;
+    /* margin-left: 50px; */
+    background-color: #d6d4d4;
+    border-radius: 20px;
+  }
+
+ 
+  .heading h1 {
+    font-size: 2rem;
+  }
+
+  .heading p {
+    font-size: 1.5rem;
+  }
+
+  .form {
+    width: 90%;
+  }
+
+}
+
+/* Styles for screens larger than 600px */
+@media (min-width: 601px) {
+  /* CSS rules for larger screens */
+}
+
+.btn-lgt {
+  padding: 10px 5px;
+  margin-left:auto;
+  margin-right: 10px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  background: #fff;
+  color: #360000;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  appearance: button;
+  display: block;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+}
+
+.logo img {
+  margin-right: 8px; /* Add margin between the image and text */
+  margin-left: 15px;
+  width: 70px;
+  height: 58px;
+
+}
+
+.logo h1{
+  font-size: 30px;
+}
+

@@ -1,0 +1,45 @@
+.formf-control {
+  margin: 1rem 0;
+  /* text-align:right; */
+}
+
+.formf-control label,
+.formf-control input,
+.formf-control textarea {
+  display: block;
+}
+
+.formf-control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.formf-control input,
+.formf-control textarea {
+  width: 100%;
+  font: inherit;
+  border: 1px solid #ccc;
+  background: #f8f8f8;
+  padding: 0.15rem 0.25rem;
+}
+
+.formf-control input:focus,
+.formf-control textarea:focus {
+  outline: none;
+  background: #ebebeb;
+  border-color: #510077;
+}
+
+.formf-control--invalid label,
+.formf-control--invalid p {
+  color: red;
+}
+
+.formf-control--invalid input,
+.formf-control--invalid textarea {
+  border-color: red;
+  background: #ffd1d1;
+}
+
+
+   
